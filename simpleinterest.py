@@ -1,6 +1,10 @@
-def simple_interest(p, r, t):
-    return (p * r * t) / 100
+import sys
+def simint(principal,interest,time):
+    return(p*i*t)/100
 
+    if__name__=="__main__":
+        p = int(sys.argv[1])
+        i = int(sys.argv[2])
+        t = int(sys.argv[3])
 
-if __name__ == "__main__":
-    print("Simple Interest", simple_interest(1000, 5, 2))
+        print("simple interest:",simint(p,i,t))
